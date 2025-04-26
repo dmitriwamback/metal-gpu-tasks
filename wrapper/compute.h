@@ -14,7 +14,7 @@ class Addition {
 public:
     Addition();
     ~Addition();
-    void Add(float* a, float* b, float* result, int count);
+    void Add(float* a, float* b, glm::vec4* result, int count);
 private:
     AdditionImpl* impl;
 };
